@@ -1,0 +1,6 @@
+CREATE TABLE TYPECHANGE (
+    id INTEGER IDENTITY PRIMARY KEY,
+    origin_currency VARCHAR(50) NOT NULL,
+    destination_currency VARCHAR(50) NOT NULL,
+    price DECIMAL NOT NULL
+);
